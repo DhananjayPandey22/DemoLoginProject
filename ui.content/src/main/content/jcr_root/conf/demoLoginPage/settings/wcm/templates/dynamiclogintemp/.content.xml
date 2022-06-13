@@ -2,11 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2022-06-13T13:34:45.001+05:30"
+        cq:lastModified="{Date}2022-06-13T13:54:44.629+05:30"
         cq:lastModifiedBy="admin"
-        cq:templateType="/conf/demoLoginPage/settings/wcm/template-types/content-page"
-        jcr:description="Simple content page for demoLoginPage"
+        cq:templateType="/conf/demoLoginPage/settings/wcm/template-types/empty-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Content Page"
+        jcr:title="dynamicLoginTemp"
         status="enabled"/>
 </jcr:root>

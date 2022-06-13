@@ -2,17 +2,18 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <rep:policy/>
     <wcm jcr:primaryType="nt:unstructured">
         <foundation jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
+                        jcr:lastModified="{Date}2022-06-13T13:43:08.424+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="demoLoginPage Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:demoLoginPage,/apps/demoLoginPage/components/form/container]"
+                        components="[/apps/demoLoginPage/components/content/user-login,/apps/demoLoginPage/components/form/container]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -29,6 +30,15 @@
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
+                    <policy_1655108304326
+                        jcr:lastModified="{Date}2022-06-13T13:54:44.627+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Copy of "
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,/apps/demoLoginPage/components/content/user-login]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1655108304326>
                 </responsivegrid>
             </components>
         </foundation>
