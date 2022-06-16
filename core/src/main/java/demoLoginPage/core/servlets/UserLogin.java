@@ -1,4 +1,4 @@
-package login.core.servlets;
+package demoLoginPage.core.servlets;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
@@ -23,7 +23,7 @@ import com.adobe.granite.crypto.CryptoException;
 property={
         Constants.SERVICE_DESCRIPTION + "=Simple Demo Servlet",
         "sling.servlet.methods=" + HttpConstants.METHOD_POST,
-        "sling.servlet.paths="+ "/bin/demologin"
+        "sling.servlet.paths="+ "/bin/demologinPages"
        
 })
 public class UserLogin extends SlingAllMethodsServlet{ 
