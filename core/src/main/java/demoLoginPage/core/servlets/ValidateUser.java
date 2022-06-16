@@ -1,4 +1,4 @@
-package login.core.servlets;
+package demoLoginPage.core.servlets;
 
 public class ValidateUser {
 	String userName = "Dhananjay";
