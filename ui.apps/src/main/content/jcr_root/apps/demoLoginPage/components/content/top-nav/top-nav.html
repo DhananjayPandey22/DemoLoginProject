@@ -1,0 +1,39 @@
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.css @ categories='top.navg'}" />
+	
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.js @ categories='top.navg'}" />	
+
+<body>
+	<div class="topnav">
+		<a href="http://localhost:4502/content/demoLoginPage/en/home.html">Home</a>
+		<a href="http://localhost:4502/content/demoLoginPage/en/about.html">About</a>
+		<a href="http://localhost:4502/content/demoLoginPage/en/contact.html">Contact</a>
+
+		<a onclick="loginuser()"><i class="fa fa-user" aria-hidden="true"
+			id="btn"></i> </a>
+
+		<div class="login-container" id="loginPopup">
+
+			<h2>Login</h2>
+			<form name="register" id="register" method="POST">
+				<input type="text" placeholder="Username" name="user" value="">
+				<input type="text" placeholder="Password" name="password" value="">
+				<input type="Submit" name="submit" id="submit">
+			</form>
+		</div>
+
+		<div id="register" name="register"></div>
+		<div id="user" name="user"></div>
+		<div style="padding-left: 50px"></div>
+
+	</div>
+</body>
+
+
